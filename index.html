@@ -26,12 +26,12 @@
                 <input type="text" value="" id="nome" placeholder="Inserisci il tuo nome">
             </div>
             <div class="col-2 d-flex flex-column">
-                <label for="km">Inserisci Nome e Cognome</label>
-                <input type="number" id="km" placeholder="Inserisci il tuo nome">
+                <label for="km">Km da percorrere</label>
+                <input type="number" value="" id="km" placeholder="Inserisci il tuo nome">
             </div>
             <div class="col-2 d-flex flex-column">
                 <label for="eta">Fascia d'età</label>
-                <select id="eta">
+                <select value="" id="eta">
                     <option value="minore">minorenne</option>
                     <option value="maggiore">maggiorenne</option>
                     <option value="over">over 65</option>
@@ -55,17 +55,26 @@
             </div>
         </div>
         <div class="container mt-2 p-4 bg-light">
-            <div class="row justify-content-center">
-                <div class="col-2 d-flex flex-column">
-                    <h3>NOME PASSEGGERO</h3>
-                    <Span id=""></Span>
+            <div class="row justify-content-center myBorder ">
+                <div class="col-3 d-flex flex-column">
+                    <h4>NOME PASSEGGERO</h4>
+                    <p id="passegero"></p>
                 </div>
-                <div class="col-2 d-flex flex-column"></div>
-                <div class="col-2 d-flex flex-column"></div>
-                <div class="col-2 d-flex flex-column"></div>
                 <div class="col-2 d-flex flex-column">
-                    <h4>Cosot biglietto</h4>
-                    <Span id="prezzoFinale"></Span>
+                    <h4>Offerta</h4>
+                    <p id="sconto"></p>
+                </div>
+                <div class="col-2 d-flex flex-column">
+                    <h4>Carrozza</h4>
+                    <p id="carrozza"></p>
+                </div>
+                <div class="col-2 d-flex flex-column">
+                    <h4>Carrozza</h4>
+                    <p id="codice"></p>
+                </div>
+                <div class="col-2 d-flex flex-column">
+                    <h4>Costo biglietto</h4>
+                    <p id="prezzoFinale"></p>
                 </div>
             </div>
         </div>

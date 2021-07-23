@@ -4,7 +4,7 @@ function() {
     var km = document.getElementById("km").value;
     var eta = document.getElementById("eta").value;
     var prezzoFinale = km * 0.21;
-    var codice = Math.floor(Math.random()* (100000 - 90000));
+    var codice = Math.floor(Math.random()* (100000 - 90000)) + 90000;
     var carrozza = Math.floor(Math.random()* 10) + 1;
 
     document.getElementById("carrozza").innerHTML = carrozza;

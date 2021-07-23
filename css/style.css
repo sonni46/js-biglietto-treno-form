@@ -16,3 +16,20 @@
 .myHover:hover {
     background-color: lightgray;
 }
+
+button {
+    padding:3px;
+}
+
+.myColor:focus {
+    background-color: brown;
+    color: white;
+}
+
+.myColor:focus::placeholder {
+    color: white;
+}
+
+.myCR {
+    color: brown;
+}
